@@ -1,0 +1,16 @@
+# torch is installed separately (CUDA build): pip install torch --index-url https://download.pytorch.org/whl/cu126
+transformers
+datasets
+evaluate
+accelerate
+sentencepiece
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+ipykernel
+nbformat
+nbconvert
+jupyter-client
