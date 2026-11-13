@@ -1,0 +1,17 @@
+{
+  "xlmr_base": [
+    {"name": "final_s42", "save_test_logits": true, "overrides": {"lr": 2e-5, "epochs": 5, "plausible_lambda": 0.3, "seed": 42}},
+    {"name": "final_s43", "save_test_logits": true, "overrides": {"lr": 2e-5, "epochs": 5, "plausible_lambda": 0.3, "seed": 43}},
+    {"name": "final_s44", "save_test_logits": true, "overrides": {"lr": 2e-5, "epochs": 5, "plausible_lambda": 0.3, "seed": 44}}
+  ],
+  "phobert": [
+    {"name": "final_s42", "save_test_logits": true, "overrides": {"lr": 1.5e-5, "epochs": 5, "seed": 42}},
+    {"name": "final_s43", "save_test_logits": true, "overrides": {"lr": 1.5e-5, "epochs": 5, "seed": 43}},
+    {"name": "final_s44", "save_test_logits": true, "overrides": {"lr": 1.5e-5, "epochs": 5, "seed": 44}}
+  ],
+  "xlmr_large": [
+    {"name": "final_s42", "save_test_logits": true, "overrides": {"lr": 1.5e-5, "epochs": 3, "plausible_lambda": 0.3, "seed": 42}},
+    {"name": "final_s43", "save_test_logits": true, "overrides": {"lr": 1.5e-5, "epochs": 3, "plausible_lambda": 0.3, "seed": 43}},
+    {"name": "final_s44", "save_test_logits": true, "overrides": {"lr": 1.5e-5, "epochs": 3, "plausible_lambda": 0.3, "seed": 44}}
+  ]
+}

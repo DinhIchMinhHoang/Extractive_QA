@@ -14,3 +14,7 @@ ipykernel
 nbformat
 nbconvert
 jupyter-client
+# PhoBERT word segmentation (VnCoreNLP); needs Java 8+ and a one-time model download (see README)
+py_vncorenlp
+# test runner
+pytest

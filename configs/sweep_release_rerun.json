@@ -1,0 +1,5 @@
+{
+  "phobert": [
+    {"name": "release_s45", "save_model": true, "save_test_logits": true, "overrides": {"lr": 1.5e-5, "epochs": 5, "seed": 45}}
+  ]
+}

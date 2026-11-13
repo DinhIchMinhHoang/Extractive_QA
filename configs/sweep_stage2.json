@@ -1,0 +1,20 @@
+{
+  "xlmr_base": [
+    {"name": "llrd0.9", "overrides": {"lr": 2e-5, "epochs": 5, "lr_decay": 0.9}},
+    {"name": "ema0.999", "overrides": {"lr": 2e-5, "epochs": 5, "ema_decay": 0.999}},
+    {"name": "pl0.1", "overrides": {"lr": 2e-5, "epochs": 5, "plausible_lambda": 0.1}},
+    {"name": "pl0.3", "overrides": {"lr": 2e-5, "epochs": 5, "plausible_lambda": 0.3}}
+  ],
+  "phobert": [
+    {"name": "llrd0.9", "overrides": {"lr": 1.5e-5, "epochs": 5, "lr_decay": 0.9}},
+    {"name": "ema0.999", "overrides": {"lr": 1.5e-5, "epochs": 5, "ema_decay": 0.999}},
+    {"name": "pl0.1", "overrides": {"lr": 1.5e-5, "epochs": 5, "plausible_lambda": 0.1}},
+    {"name": "pl0.3", "overrides": {"lr": 1.5e-5, "epochs": 5, "plausible_lambda": 0.3}}
+  ],
+  "xlmr_large": [
+    {"name": "llrd0.9", "overrides": {"lr": 1.5e-5, "epochs": 3, "lr_decay": 0.9}},
+    {"name": "ema0.999", "overrides": {"lr": 1.5e-5, "epochs": 3, "ema_decay": 0.999}},
+    {"name": "pl0.1", "overrides": {"lr": 1.5e-5, "epochs": 3, "plausible_lambda": 0.1}},
+    {"name": "pl0.3", "overrides": {"lr": 1.5e-5, "epochs": 3, "plausible_lambda": 0.3}}
+  ]
+}

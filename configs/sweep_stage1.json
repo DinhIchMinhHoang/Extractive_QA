@@ -1,0 +1,20 @@
+{
+  "xlmr_base": [
+    {"name": "base_lr3e-5_e3", "overrides": {"lr": 3e-5, "epochs": 3}},
+    {"name": "lr2e-5_e5", "overrides": {"lr": 2e-5, "epochs": 5}},
+    {"name": "lr3e-5_e5", "overrides": {"lr": 3e-5, "epochs": 5}},
+    {"name": "lr5e-5_e4", "overrides": {"lr": 5e-5, "epochs": 4}}
+  ],
+  "phobert": [
+    {"name": "base_lr2e-5_e3", "overrides": {"lr": 2e-5, "epochs": 3}},
+    {"name": "lr2e-5_e5", "overrides": {"lr": 2e-5, "epochs": 5}},
+    {"name": "lr3e-5_e5_wu0.2", "overrides": {"lr": 3e-5, "epochs": 5, "warmup_ratio": 0.2}},
+    {"name": "lr1.5e-5_e5", "overrides": {"lr": 1.5e-5, "epochs": 5}}
+  ],
+  "xlmr_large": [
+    {"name": "base_lr1.5e-5_e3", "overrides": {"lr": 1.5e-5, "epochs": 3}},
+    {"name": "lr1e-5_e4", "overrides": {"lr": 1e-5, "epochs": 4}},
+    {"name": "lr2e-5_e3", "overrides": {"lr": 2e-5, "epochs": 3}},
+    {"name": "lr1.5e-5_e5", "overrides": {"lr": 1.5e-5, "epochs": 5}}
+  ]
+}
